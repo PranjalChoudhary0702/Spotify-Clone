@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="search">
+                <img src="Svg/spotify.svg" alt="Spotify">
+                <button><img src="Svg/Home.svg" alt="Home"></button>
+                <div class="search-box">
+                    <div class="search-menu">
+                        <button><img src="Svg/Search.svg" alt=""></button>
+                        <input type="text" name="search" placeholder="What do want to Paly?">
+
+                    </div>
+                    <div class="Seperator">
+                        <div class="divider"></div>
+                        <button><img src="Svg/Breifcase.svg" alt="Breifcase"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info-left">
+                    <button>Premium</button>
+                    <button>Support</button>
+                    <button>Download</button>
+
+                </div>
+
+                <div class="divider danda"></div>
+                <div class="info-right">
+                    <button>Install App</button>
+                    <button>Sign up</button>
+                    <button class="Login">Login in</button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="Lib">
+            <header>
+                <div class="L">
+                    <div>Your Library</div>
+                    <button><img src="Svg/plus.svg" alt="plus"></button>
+                </div>
+            </header>
+            <div class="Mudiv">
+
+            </div>
+            <footer>
+                <div footer1>
+                    <span>Legal</span>
+                    <span>Safety&Privacy Center</span>
+                    <span>Privacy Policy</span>
+                    <span>Cookies</span>
+                    <span>About Ads</span>
+                    <span>Accessibility</span>
+                </div>
+                <div>Cookies</div>
+                <div class="btn"><button><img src="Svg/lang.svg" alt="">English</button></div>
+            </footer>
+        </div>
+        <div class="cards">
+            <div class="header">The Choudhary Records 🎵</div>
+            <div class="carads">
+                 
+
+            </div>
+            <div class="Art-Head">Meet The Legends 👑</div>
+            <div class="art-cards">
+                <div class="art-card">
+                    <div class="art-img">
+                        <img src="images/Artist-Pranjal.png" alt="">
+                    </div>
+                    <div class="art-info">
+                        <h4>Pranjal</h4>
+                        <p>The Architect</p>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">
+                        <img src="images/Artist-Ram.enc" alt="">
+                    </div>
+                    <div class="art-info">
+                        <h4>Ram</h4>
+                        <p>Coolest Brother</p>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">
+                        <img src="images/Artist-Prachi.jpg" alt="">
+                    </div>
+                    <div class="art-info">
+                        <h4>Prachi</h4>
+                        <p>Drama Queen</p>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">
+                        <img src="images/Artist-Prince.jpg" alt="">
+                    </div>
+                    <div class="art-info">
+                        <h4>Prince</h4>
+                        <p>Future Rockstar</p>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">
+                        <img src="images/Artist-Yuvraj.jpg" alt="">
+                    </div>
+                    <div class="art-info">
+                        <h4>Yuvraj</h4>
+                        <p>Selfie King</p>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">
+                        <img src="images/Artist-Priya.jpg" alt="">
+                    </div>
+                    <div class="art-info">
+                        <h4>Priya</h4>
+                        <p>CEO of Laziness</p>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <div class="art-img">
+                        <img src="images/Artist-Vaidehi.png" alt="">
+                    </div>
+                    <div class="art-info">
+                        <h4>Vaidehi</h4>
+                        <p>Non-Stop FM</p>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <div class="song-detail">
+                    <div class="listed-song"></div>
+                    <div class="song-btn"><img class="previous-btn" src="Svg/previous.svg" alt="previous"><img
+                            class="play-btn" src="Svg/play1.svg" alt="play"><img class="next-btn" src="Svg/next.svg"
+                            alt="next"></div>
+                    <div class="volume-Icon"><img class="volume" src=""><input
+    type="range"
+    class="volume-slider"
+    min="0"
+    max="100"
+    value="50"></div>
+                </div>
+                <div class="timer"> 
+                    <div class="song-time">0:00 / 0:00</div>
+                <div class="seekbar">
+                    <div class="progress"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Script.js"></script>
+
+
+</body>
+
+</html>
