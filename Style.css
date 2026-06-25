@@ -453,13 +453,12 @@ footer button img {
 }
 div.player{
     
-    position: fixed;
+    position: sticky;
     bottom: 10px;
     display: flex;
     align-items: center;
     
-    left:10px;
-    right:10px;
+   
     width:auto;
 
     
@@ -638,5 +637,15 @@ div.player{
         
     width: clamp(15px, 25vw, 400px);
 
+    }
+}
+@media screen and (max-width:330px){
+      .search-menu input{
+  width: clamp(5px, 25vw, 400px);
+
+    }
+    .search{
+        margin-left: 0px;
+        gap: 0px;
     }
 }
